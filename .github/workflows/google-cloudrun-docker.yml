@@ -39,7 +39,7 @@ env:
   GAR_NAME: 'my-repo'                # Artifact Registry repo name
   REGION: 'us-central1'              # Your GCP region
   SERVICE: 'fastapi-shopping-data'   # Cloud Run service name
-  WORKLOAD_IDENTITY_PROVIDER: 'projects/478336148294/locations/global/workloadIdentityPools/github-demo/providers/github-wfi-demo'  # Corrected closing quote
+  WORKLOAD_IDENTITY_PROVIDER: 'projects/478336148294/locations/global/workloadIdentityPools/github-demo/providers/github-wfi-demo'
 
 jobs:
   deploy:
